@@ -1,10 +1,7 @@
 .. image:: https://img.shields.io/pypi/v/jaraco.util.svg
-   :target: `PyPI link`_
+   :target: https://pypi.org/project/jaraco.util
 
 .. image:: https://img.shields.io/pypi/pyversions/jaraco.util.svg
-   :target: `PyPI link`_
-
-.. _PyPI link: https://pypi.org/project/jaraco.util
 
 .. image:: https://github.com/jaraco/jaraco.util/workflows/tests/badge.svg
    :target: https://github.com/jaraco/jaraco.util/actions?query=workflow%3A%22tests%22
