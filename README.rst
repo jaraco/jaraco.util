@@ -3,7 +3,7 @@
 
 .. image:: https://img.shields.io/pypi/pyversions/jaraco.util.svg
 
-.. image:: https://github.com/jaraco/jaraco.util/workflows/tests/badge.svg
+.. image:: https://github.com/jaraco/jaraco.util/actions/workflows/main.yml/badge.svg
    :target: https://github.com/jaraco/jaraco.util/actions?query=workflow%3A%22tests%22
    :alt: tests
 
