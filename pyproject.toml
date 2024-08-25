@@ -68,4 +68,9 @@ type = [
 [project.scripts]
 roll-dice = "jaraco.util.dice:do_dice_roll"
 
+
 [tool.setuptools_scm]
+
+
+[tool.pytest-enabler.mypy]
+# Disabled due to jaraco/skeleton#143
