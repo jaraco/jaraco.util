@@ -1,4 +1,4 @@
-from jaraco import context  # type: ignore
+from jaraco import context
 
 
 def throws_exception(callable, *exceptions):
