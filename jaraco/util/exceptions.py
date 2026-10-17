@@ -12,7 +12,6 @@ def throws_exception(callable, *exceptions):
     >>> throws_exception(lambda: int('a'), KeyError)
     False
     """
-    with context.ExceptionTrap():
-        with context.ExceptionTrap(*exceptions) as exc:
-            callable()
+    with context.ExceptionTrap(), context.ExceptionTrap(*exceptions) as exc:
+        callable()
     return bool(exc)

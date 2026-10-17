@@ -1,7 +1,7 @@
-import sys
-import subprocess
-import threading
 import queue
+import subprocess
+import sys
+import threading
 
 
 def enqueue_lines(stream, queue):

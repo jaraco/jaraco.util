@@ -1,6 +1,6 @@
+import contextlib
 import json
 import numbers
-import contextlib
 
 
 def coerce(value):

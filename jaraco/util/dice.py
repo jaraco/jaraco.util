@@ -2,8 +2,8 @@
 Simple module for simulating dice rolls.
 """
 
-import random
 import argparse
+import random
 
 
 def _get_options():
@@ -14,7 +14,7 @@ def _get_options():
     return args
 
 
-class Dice(object):
+class Dice:
     """
     >>> d20 = Dice(20)
     >>> 1 <= d20.roll() <= 20

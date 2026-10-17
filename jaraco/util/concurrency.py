@@ -1,5 +1,5 @@
-import threading
 import functools
+import threading
 
 
 def atomize(f, lock=None):
@@ -37,7 +37,7 @@ def atomize(f, lock=None):
     return exec_atomic
 
 
-class AtomicGuard(object):
+class AtomicGuard:
     """
     A decorator that can be applied to multiple functions/methods to
     prevent more than one of them from being entered at any one time.
